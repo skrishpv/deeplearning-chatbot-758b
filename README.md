@@ -15,4 +15,4 @@ The bot is an NLP based generative chat bot and can assist with answering questi
 [![Demo Video](/blob/chatdemo.gif)](https://drive.google.com/file/d/12aU8C-mRRryahO7cJFhMMHmKdXliZLZz/view?usp=sharing)
 
 ### A poster we made for the project is below!
-[<img src="blob/poster.jpg" width="100%">](https://drive.google.com/file/d/1pJ6MopWysfqZAPVv4dMyOqvAMtQwJQid/view?usp=sharing)
+[<img src=/blob/poster.jpg width="100%">](https://drive.google.com/file/d/1pJ6MopWysfqZAPVv4dMyOqvAMtQwJQid/view?usp=sharing)
