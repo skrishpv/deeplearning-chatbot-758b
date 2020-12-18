@@ -1,0 +1,79 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay", "Hi there","Good Morning"],
+     "responses": ["Hello", "Hi", "Hi there", "Hi, how can I help you today?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye","Have a nice day","Buhbye, see you again!"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help","You are really great!","You are helpful!"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?", "Who am I speaking to?"],
+     "responses": ["I'm Bot 758B, your bot assistant made using topics covered in this course. I can answer your questions about the course.", "I'm Bot 758B, an Artificially Intelligent bot. I can answer your questions about the course."]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "what's your name?"],
+    "responses": ["You can call me Bot 758B.", "I'm Bot 758B!", "Just call me as Bot 758B"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you","How can I help you"]
+    },
+    {"tag": "questions",
+    "patterns": ["What do you know?", "What can I ask you?", "What questions can you answer?", "Is there a list of questions you can answer?", "questions you can answer."],
+    "responses": ["Ask me about the professor, the TAs, the topics covered in course, the weekly schedule, assignment due dates, video recordings, simple questions regarding Big Data. You can also tell me if you have a suggestion!"]
+    },
+    {"tag": "professor",
+    "patterns": ["What is the professor's name?", "Who will be teaching this course?"],
+    "responses": ["The course will be taught by Prof. Kunpeng Zhang. You can call him KZ", "Prof. Kunpeng Zhang! He is really good at it too."]
+    },
+    {"tag": "TAs",
+    "patterns": ["Who are the TAs?", "Who could I ask questions regarding this course","When are the TA’s available?"],
+    "responses": ["We have 3 TAs, they are Mingwei Sun, Zhonghao Li, Adithya Solai, you could reach to them via Canvas", "You could ask questions to our 3 TAs, their office hours and email address are shown on Canvas."]
+    },
+    {"tag": "topics",
+    "patterns": ["What topics will I learn from the course?", "What are topics covered in the course?"],
+    "responses": ["The course will cover deep learning, Big Data, AWS and PySpark", "Deeplearning, Big Data Concepts, AWS and PySpark"]
+    },
+    {"tag": "weekschedule",
+    "patterns": ["What is the weekly schedule", "Where can I find the weekly schedule?","How to know about the schedule?"],
+    "responses": ["The course homepage would be a good place to start.", "Look at the syllabus and the course homepage"]
+    },
+    {"tag": "assignment",
+    "patterns": ["When is the assignment due?", "Where can I find the assignment due dates?","assignment information"],
+    "responses": ["The course homepage would be a good place to start.", "Look at the assignments tab on canvas.","You can look at the assignment tab in canvas and also the announcements."]
+    },
+    {"tag": "recordings",
+    "patterns": ["Are there any Video recordings?", "Where to see the class recording?","class recording"],
+    "responses": ["The course homepage would be a good place to start.", "Look at the files tab on canvas to find recordings."]
+    },
+    {"tag": "deeplearning",
+    "patterns": ["What is deep learning?", "Three steps for deep learning", "What are topics covered in deep learning"],
+    "responses": ["Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning.", "Three steps are define functions, goodness of function, pick the best function.", "The topics we covered are neural network, autoencoder, CNN, RNN." ]
+    },
+    {"tag": "hadoop",
+    "patterns": ["What does Hadoop offer?", "What are the Hadoop goals", "What is the architecture of Hadoop"],
+    "responses": ["Hadoop provides a software framework for distributed storage and processing of big data using the MapReduce programming model.", "Hadoop goals are scalable, economical, reliable.", "Hadoop works in a master-slave architecture." ]
+    },
+    {"tag": "mapreduce",
+    "patterns": ["What are the required components in MapReduce?", "What are the required components in MapReduce?", "What are sequence of data flow in MapReduce"],
+    "responses": ["The required components are input, mapper, reducer, driver and output.", "The optional components are combiner and partitioner.", "InputFormat, Mapper, Combiner, Partitioner, Shuffle, Sort, Reducer, OutputFormat." ]
+    },
+    {"tag": "pig",
+    "patterns": ["What is Pig?", "What are the main components of Pig?", "What can Pig offer to organizations?"],
+    "responses": ["Apache Pig is a platform for data analysis and processing on Hadoop.", "Components are Pig Latin, interactive shell, Pig interpreter and execution engine.", "Pig is a great choice for data analysis and data processing." ]
+    },
+    {"tag": "spark",
+    "patterns": ["What is Spark?", "What are the data execution ways in Spark?", "How to create an RDD?"],
+    "responses": ["Spark is a general execution engine to improve/replace MapReduce.", "Spark has 2 main data executions, which are DataFrame and RDD.", "Three ways to create an RDD, we could create from files, from data in memory and from another RDD." ]
+    },
+    {"tag": "comments",
+    "patterns": ["have a comment", "I have a suggestion", "I want to raise a suggestion", "there is a feedback about the course", "how to give a feedback"],
+    "responses": ["Please provide us your feedback in order to assist you.", "Please mention your suggestion, we will consider it and improve in the next time."]
+    }
+]
+}
